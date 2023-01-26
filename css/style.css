@@ -125,9 +125,9 @@ header a img{
 }
 .simage img{
      position: absolute;
-    width: 136%;
-    top: -79px;
-    left: -43%;
+     width: 116%;
+     top: -90px;
+     left: -43%;
 }
 
 /*=================
@@ -161,15 +161,16 @@ header a img{
 .about-section ul li{
     list-style: none;
     display: inline;
+    padding: 10px 20px;
     font-size: 10px;
-    margin: 0 7px;
+    margin-right: 7px;
     color: #484848;
     text-transform: uppercase;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
 .about-section ul li:nth-child(4){
-     background: #f42267;
+    background: #f42267;
     padding: 10px 20px;
     color: #fff;
     border-radius: 50px;
@@ -232,8 +233,9 @@ header a img{
 	position: relative;
 }
 .cimage img{
-	position: absolute;
-	width: 86%;
+  width: 54%;
+  display: block;
+  margin: 0 auto;
 }
 
 /*======================
@@ -246,10 +248,11 @@ header a img{
    padding: 0;
 }
 .achievement {
-   padding: 50px;
+   padding: 30px;
    transition: all 0.3s ease-in-out;
 }
 .achievement:hover{
+  cursor: pointer;
 	background: #40286a;
 	transition: all 0.3s ease-in-out;
 }
@@ -281,7 +284,7 @@ header a img{
 .achievement p{
   color: #8f81a7;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 400;	
 }
 
@@ -544,9 +547,9 @@ header a img{
  }
   .testimonial-details img{
     position: absolute;
-    width: 66%;
+    width: 52%;
     top: -22px;
-    left: -20%;  
+    left: 4%;
   }
 
  .float-sec{
@@ -765,21 +768,24 @@ footer{
   .client-logo .logos7 { width: 55px; margin: 5px auto 30px;}
   .client-logo .logos8 { width: 130px; margin: 15px auto 30px;}
 
+  .testimonial-section { padding: 50px 0 0;}
+  .testimonial-details h2 { text-align: center;}
+  .testimonial-details h1 { text-align: center;}
+  .float-sec p { padding-right: 0;}
+  .float-sec2 { margin-left: 0; text-align: center;}
+  .float-sec2 .fa-star { margin-top: 20px;}
+  .testimonial-details img { position: relative; width: 80%; top: 0; left: 0; display: block; margin: auto;}
+  .testimonial-details { margin-top: 80px;}
+
+  .forms { text-align: center;}
+  .help-section h3 {font-size: 24px;}
+  .help-section p { padding: 0; font-size: 16px;}
+  .forms .input1 { font-size: 14px; margin-bottom: 16px;}
+
+  .social-section ul li { padding: 16px 22px;}
+
+  .company-details ul li { margin: 16px 0;}
+  .company-details { margin-bottom: 50px;}
+  .footer2 label { margin-top: -12px;}
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
